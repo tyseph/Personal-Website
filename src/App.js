@@ -4,7 +4,7 @@ import { Navigation, Footer, Home, Contact, Skills } from "./components";
 function App() {
   return (
     <div>
-      <Router basename="/Personal-Website/">
+      <Router>
         <Navigation />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
