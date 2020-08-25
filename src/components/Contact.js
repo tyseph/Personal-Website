@@ -5,7 +5,7 @@ function Contact() {
 
   return (
     <div className="contact">
-      <div className="flex flex-wrap h-screen w-full bg-green-500 content-center align-middle -mt-8">
+      <div className="flex flex-wrap h-screen w-full bg-green-500 content-center align-middle ">
 				  <div className="table m-auto inline-block ">
           <a href="https://github.com/tyseph">
 						<GitHub className="transform duration-300 lg:hover:scale-150" color="white" size={250} />

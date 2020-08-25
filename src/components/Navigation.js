@@ -15,7 +15,7 @@ function Hide() {
 function Navigation(props) {
   
   return (
-    <nav class="items-center justify-between py-2 shadow-lg bg-green-500">
+    <nav class="fixed w-full items-center justify-between py-2 bg-green-500">
     <div class="flex w-24 align-middle items-center text-sm text-white ml-4">
     <Link to="/" class="font-semibold font-sans block mr-4 lg:mt-0 text-gray-200 hover:text-gray-800 transform origin-top-left duration-200">
           Home
@@ -27,11 +27,11 @@ function Navigation(props) {
           Contact
         </Link>
     </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+    <div class="w-full block flex-grow flex items-center">
       <div class="text-md font-serif lg:flex-grow">
       </div>
       <div>
-      <div className="flex inline ml-5 align-middle">
+      <div className="flex inline ml-5 align-right">
 					{/* <a href="#!">
 						<Facebook className="mr-6 transform duration-200 hover:scale-150 -mt-4" color="white" size={25} />
 					</a>
